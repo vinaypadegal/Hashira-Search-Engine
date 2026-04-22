@@ -1,0 +1,21 @@
+.DS_Store
+*.class
+.idea
+bin/
+bins_for_s3/
+worker*/
+*.jar
+!libs/jsoup-1.21.2.jar
+!libs/libstemmer_java-3.0.1.jar
+*.env
+logs/
+.vscode/
+-flame/
+
+# add for terraform
+.terraform/
+aws-logs/
+worker-data/
+*.log
+test-data/
+-flame/
